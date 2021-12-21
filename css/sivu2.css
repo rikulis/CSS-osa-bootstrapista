@@ -1,0 +1,59 @@
+#linkki {
+ margin-left: 10px;
+ margin-right: 10px;
+ font-family: 'Trebuchet MS', sans-serif;
+ color: black;
+}
+#upperLink {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+   }
+   #upperLink:hover,#linkki:hover,a:hover {
+    color: red;
+   }
+   a {
+       color: rgb(255, 0, 0, 0.8);
+   }
+   #SignIn {
+    background-color:rgb(255, 0, 0, 0.8);
+}
+#SignIn:hover {
+ background-color:red;
+}
+#saleButton {
+    width: 200px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    
+}
+#saleButton:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, red);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+#saleButton:focus {
+    outline: none;
+}
+.image:hover  {
+    opacity: 0.7;
+  }
+  
+  
